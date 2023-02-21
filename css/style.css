@@ -5,6 +5,15 @@
   padding: 0;
 }
 
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(243, 244, 246);
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -12,6 +21,7 @@ header {
   align-items: center;
   background-color: #1A1C20;
   height: 80px;
+  font-family: "Quicksand", sans-serif;
 }
 header a img {
   margin-left: 30px;
@@ -22,6 +32,7 @@ header img {
 header nav {
   display: flex;
   align-items: center;
+  padding-right: 80px;
 }
 header nav ul {
   list-style: none;
